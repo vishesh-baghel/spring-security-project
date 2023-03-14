@@ -3,3 +3,27 @@ S
 #.idea/sonarlint/issuestore/index.pb,9/f/9fe84ebb15faf917b7def6236dba604453cc61e0
 ]
 -.idea/sonarlint/securityhotspotstore/index.pb,8/8/88a9255124c95bdc913197c120a8d560edc59c8e
+S
+#src/main/java/org/example/Main.java,0/b/0ba1b9c7a4878802f938e331cc2d8a042087ec6b
+w
+G.idea/sonarlint/issuestore/8/8/88a9255124c95bdc913197c120a8d560edc59c8e,a/e/ae9ddf453f55affea2d6b9e3973cac1eb2efb4e1
+Q
+!spring-security-client/.gitignore,2/c/2cc07097e7556c52bc4a8868ed7930069e0f2509
+w
+G.idea/sonarlint/issuestore/9/f/9fe84ebb15faf917b7def6236dba604453cc61e0,f/0/f0e0f9cec86fe4b939ae22be5264c758801eb28f
+l
+<spring-security-client/.mvn/wrapper/maven-wrapper.properties,f/3/f32ea1addea9b1e7b816a837aff77b049e21d40b
+
+Q.idea/sonarlint/securityhotspotstore/8/8/88a9255124c95bdc913197c120a8d560edc59c8e,9/0/909762385fc6eb20f922a91c6865741308b57f2c
+
+Q.idea/sonarlint/securityhotspotstore/9/f/9fe84ebb15faf917b7def6236dba604453cc61e0,b/b/bbf202272a96de5cd6b6828ffdc55fb3ce45289c
+ 
+pspring-security-client/src/test/java/com/example/springsecurity/client/SpringSecurityClientApplicationTests.java,7/5/75067641b9a6a00ee80d25a066fb0401c42b4b9c
+7
+pom.xml,4/4/442292b8a7efeabbe4cc176709b833b1792140ec
+‹
+[spring-security-client/src/main/java/com/example/springsecurity/client/model/UserModel.java,a/f/af36c583d55ad8afe8586d7717cb2e01cd073039
+K
+spring-security-client/mvnw,8/0/8028a248f9f09a409117b2029d1c74c4d0a32201
+O
+spring-security-client/mvnw.cmd,0/f/0f0838f20bdb0d856fc7ebf30655df75fae6c57e
