@@ -6,7 +6,5 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface PasswordResetTokenRepository extends JpaRepository<PasswordResetToken, Long> {
-     static PasswordResetToken findByToken(String token) {
-          return null;
-     }
+     PasswordResetToken findByToken(String token);
 }

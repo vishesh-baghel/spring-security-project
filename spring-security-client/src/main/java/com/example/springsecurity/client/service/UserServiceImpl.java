@@ -88,7 +88,7 @@ public class UserServiceImpl implements UserService{
 
     @Override
     public String validatePasswordResetToken(String token) {
-        PasswordResetToken passwordResetToken = PasswordResetTokenRepository.findByToken(token);
+        PasswordResetToken passwordResetToken = passwordResetTokenRepository.findByToken(token);
         if (passwordResetToken == null) {
             return "invalidToken";
         }
@@ -104,12 +104,17 @@ public class UserServiceImpl implements UserService{
 
     @Override
     public Optional<User> getUserByPasswordResetToken(String token) {
-        return Optional.ofNullable(PasswordResetTokenRepository.findByToken(token).getUser());
+        return Optional.ofNullable(passwordResetTokenRepository.findByToken(token).getUser());
     }
 
     @Override
     public void changePassword(User user, String newPassword) {
         user.setPassword(passwordEncoder.encode(newPassword));
         userRepository.save(user);
+    }
+
+    @Override
+    public boolean checkIfValidOldPassword(User user, String oldPassword) {
+        return passwordEncoder.matches(oldPassword, user.getPassword());
     }
 }
